@@ -1,0 +1,23 @@
+name: Build IdChallenge XCFramework
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+
+      - name: Build XCFramework
+        run: ./build_xcframework.sh
