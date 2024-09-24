@@ -126,3 +126,7 @@ idVerification.accessPhotos { result in
 For releasing the xcframework, I created a script (build_xcframework.sh) in the root folder. This creates the proper build for both iOS Devices and Simulators, and then creates the xcframework out of that. For checking that everything works fine, I tried importing this in another iOS project and it works fine.
 
 I also wanted to add some yaml file to make the release process automated. I created an initial sample yaml file to go that way. But considering that I need to upload the build in the repository and the amount of time needed for checking if this works fine on Github Runner, I think it's something for the future. I think the idea of having the release process automated to have the sdk published (at least to our staging for being tested automatically using some UI Test) is pretty cool for our regression. For reference you can find the xcframework output [here](https://github.com/abbassabeti/IdChallenge-iOS/tree/framework_build/XCFramework/IdFramework.xcframework) in the repository.
+
+## **Time dedicated to implement this SDK**
+
+I spend around half a day for the iOS SDK and the main app to make it work. Then I spend 2-3 hours in later this week to add tests and make things more testable in my SDK. So, in total, it took around a day to create this and also to write this doc.
