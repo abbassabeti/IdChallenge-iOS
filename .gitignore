@@ -1,0 +1,25 @@
+# macOS-specific files
+.DS_Store
+
+# Xcode-specific files
+xcuserdata/
+*.xcuserstate
+
+# Ignore Pods directory if you're using CocoaPods
+Pods/
+
+# Build folders
+build/
+DerivedData/
+
+# Ignore Carthage directory if you're using Carthage
+Carthage/
+
+# Ignore Swift Package Manager directory
+.swiftpm/
+
+# Ignore Xcode scheme management file
+xcshareddata/
+
+# Ignore xcuserdata for all users
+*/xcuserdata/*
