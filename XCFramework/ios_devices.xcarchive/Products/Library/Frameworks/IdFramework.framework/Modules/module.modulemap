@@ -1,0 +1,6 @@
+framework module IdFramework {
+  umbrella header "IdFramework.h"
+  export *
+
+  module * { export * }
+}

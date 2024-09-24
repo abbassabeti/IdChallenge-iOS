@@ -1,0 +1,1007 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "IdFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDError",
+        "printedName": "IDError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedInCapture",
+            "printedName": "failedInCapture",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO15failedInCaptureyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO15failedInCaptureyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "captureCancelledByUser",
+            "printedName": "captureCancelledByUser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO22captureCancelledByUseryA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO22captureCancelledByUseryA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "failedInEncryption",
+            "printedName": "failedInEncryption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO18failedInEncryptionyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO18failedInEncryptionyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "failedInDecryption",
+            "printedName": "failedInDecryption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO18failedInDecryptionyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO18failedInDecryptionyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "failedInStoringPhotos",
+            "printedName": "failedInStoringPhotos",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO21failedInStoringPhotosyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO21failedInStoringPhotosyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "failedInRetrievingPhotos",
+            "printedName": "failedInRetrievingPhotos",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO24failedInRetrievingPhotosyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO24failedInRetrievingPhotosyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidData",
+            "printedName": "invalidData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO11invalidDatayA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO11invalidDatayA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "notAuthorized",
+            "printedName": "notAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO13notAuthorizedyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO13notAuthorizedyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "biometryPermissionDenied",
+            "printedName": "biometryPermissionDenied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO24biometryPermissionDeniedyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO24biometryPermissionDeniedyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "noIdentitiesEnrolled",
+            "printedName": "noIdentitiesEnrolled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO20noIdentitiesEnrolledyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO20noIdentitiesEnrolledyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "failedInRetrievalOfKey",
+            "printedName": "failedInRetrievalOfKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO22failedInRetrievalOfKeyyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO22failedInRetrievalOfKeyyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "noStoredPhoto",
+            "printedName": "noStoredPhoto",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdFramework.IDError.Type) -> IdFramework.IDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDError",
+                    "printedName": "IdFramework.IDError",
+                    "usr": "s:11IdFramework7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdFramework.IDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11IdFramework7IDErrorO13noStoredPhotoyA2CmF",
+            "mangledName": "$s11IdFramework7IDErrorO13noStoredPhotoyA2CmF",
+            "moduleName": "IdFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11IdFramework7IDErrorO11descriptionSSvp",
+            "mangledName": "$s11IdFramework7IDErrorO11descriptionSSvp",
+            "moduleName": "IdFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11IdFramework7IDErrorO11descriptionSSvg",
+                "mangledName": "$s11IdFramework7IDErrorO11descriptionSSvg",
+                "moduleName": "IdFramework",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDError",
+                "printedName": "IdFramework.IDError",
+                "usr": "s:11IdFramework7IDErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDError",
+                "printedName": "IdFramework.IDError",
+                "usr": "s:11IdFramework7IDErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11IdFramework7IDErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11IdFramework7IDErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IdFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11IdFramework7IDErrorO9hashValueSivp",
+            "mangledName": "$s11IdFramework7IDErrorO9hashValueSivp",
+            "moduleName": "IdFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11IdFramework7IDErrorO9hashValueSivg",
+                "mangledName": "$s11IdFramework7IDErrorO9hashValueSivg",
+                "moduleName": "IdFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11IdFramework7IDErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11IdFramework7IDErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IdFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11IdFramework7IDErrorO",
+        "mangledName": "$s11IdFramework7IDErrorO",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "IdFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdVerification",
+        "printedName": "IdVerification",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdVerification",
+                "printedName": "IdFramework.IdVerification",
+                "usr": "s:11IdFramework0A12VerificationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11IdFramework0A12VerificationCACycfc",
+            "mangledName": "$s11IdFramework0A12VerificationCACycfc",
+            "moduleName": "IdFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "takePhoto",
+            "printedName": "takePhoto(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), IdFramework.IDError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), IdFramework.IDError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11IdFramework0A12VerificationC9takePhoto_10completionySo16UIViewControllerC_ys6ResultOyytAA7IDErrorOGctF",
+            "mangledName": "$s11IdFramework0A12VerificationC9takePhoto_10completionySo16UIViewControllerC_ys6ResultOyytAA7IDErrorOGctF",
+            "moduleName": "IdFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authenticateUser",
+            "printedName": "authenticateUser(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), IdFramework.IDError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), IdFramework.IDError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11IdFramework0A12VerificationC16authenticateUser10completionyys6ResultOyytAA7IDErrorOGc_tF",
+            "mangledName": "$s11IdFramework0A12VerificationC16authenticateUser10completionyys6ResultOyytAA7IDErrorOGc_tF",
+            "moduleName": "IdFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "accessPhotos",
+            "printedName": "accessPhotos(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[UIKit.UIImage], IdFramework.IDError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[UIKit.UIImage], IdFramework.IDError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIImage]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDError",
+                        "printedName": "IdFramework.IDError",
+                        "usr": "s:11IdFramework7IDErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11IdFramework0A12VerificationC12accessPhotos10completionyys6ResultOySaySo7UIImageCGAA7IDErrorOGc_tF",
+            "mangledName": "$s11IdFramework0A12VerificationC12accessPhotos10completionyys6ResultOySaySo7UIImageCGAA7IDErrorOGc_tF",
+            "moduleName": "IdFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11IdFramework0A12VerificationC",
+        "mangledName": "$s11IdFramework0A12VerificationC",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "IdFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "IdFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/abbassabeti\/Desktop\/iOS\/SEON\/iOS\/IdChallenge\/IdFramework\/Utils\/SymmetricKeyProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 23,
+      "value": "\"idVerify.symmetrickey\""
+    },
+    {
+      "filePath": "\/Users\/abbassabeti\/Desktop\/iOS\/SEON\/iOS\/IdChallenge\/IdFramework\/Usecases\/AuthenticationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 2,
+      "value": "-6"
+    },
+    {
+      "filePath": "\/Users\/abbassabeti\/Desktop\/iOS\/SEON\/iOS\/IdChallenge\/IdFramework\/Usecases\/AuthenticationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 2,
+      "value": "-7"
+    },
+    {
+      "filePath": "\/Users\/abbassabeti\/Desktop\/iOS\/SEON\/iOS\/IdChallenge\/IdFramework\/Usecases\/PhotoAccessManager.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 20,
+      "value": "\"yyyyMMdd_HHmmssSSS\""
+    },
+    {
+      "filePath": "\/Users\/abbassabeti\/Desktop\/iOS\/SEON\/iOS\/IdChallenge\/IdFramework\/IdVerification.swift",
+      "kind": "BooleanLiteral",
+      "offset": 360,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
